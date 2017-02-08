@@ -44,7 +44,7 @@ input {
 <div id="chatroom" style="
 			height: 500px;
 			display: none; 	
-			background-color: #D3D3D3;
+			background-color: #8fba90;
 			margin: 100px;
 			position: relative;"  >
 	<div style="padding:10px; height: 400px; overflow-y: scroll" id=chatbox>You have entered the chatroom</div>
@@ -76,7 +76,7 @@ input {
 	});
 
 	socket.on('submission', function (data){
-		displayMessage += data.clientName + " : "+data.content + "<br>";
+		displayMessage += "data.clientName" + " : "+data.content + "<br>";
 		display();
 		// console.log(data);
 		//alert(data.content);
@@ -122,7 +122,7 @@ input {
 
 		socket.emit('submission', thisMessage);
 		document.getElementsByName("messageContent")[0].value ="";
-		displayMessage += username + " : "+ thisMessage + "<br>";
+		displayMessage += "potato" + " : "+ thisMessage + "<br>";
 		display();
 	}
 
