@@ -1,0 +1,15 @@
+*{
+    text-align: center
+}
+
+h2, h4, h6, h5{
+    color: white;
+    color: rgba(255,255,255,150);}
+h6{margin: -18px;}
+
+body{
+    /*<!--background-color: lightblue;-->*/
+    background-image: url("http://wallpaperbackgrounds.com/Content/wallpapers/animal/bear/207881-3319.jpg");
+    background-size: cover;
+
+    }
